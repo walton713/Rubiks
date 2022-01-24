@@ -1,22 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Rubiks", "Rubiks\Rubiks.fsproj", "{A6B59E8B-19D7-4307-84ED-9CCF20C654DF}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Rubiks.Tests", "Rubiks.Tests\Rubiks.Tests.fsproj", "{D4274A28-10F6-47E4-8193-90F5B68E1EBC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6B59E8B-19D7-4307-84ED-9CCF20C654DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6B59E8B-19D7-4307-84ED-9CCF20C654DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6B59E8B-19D7-4307-84ED-9CCF20C654DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6B59E8B-19D7-4307-84ED-9CCF20C654DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4274A28-10F6-47E4-8193-90F5B68E1EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4274A28-10F6-47E4-8193-90F5B68E1EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4274A28-10F6-47E4-8193-90F5B68E1EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4274A28-10F6-47E4-8193-90F5B68E1EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
