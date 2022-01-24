@@ -2,7 +2,7 @@ namespace Rubiks.Logic;
 
 public struct Vector
 {
-    private readonly int[] _values;
+    private int[] _values;
 
     public Vector(params int[] values)
     {
@@ -19,5 +19,10 @@ public struct Vector
         }
 
         return res;
+    }
+
+    public void Add(int a)
+    {
+        _values = _values.Select(v => v + a).ToArray();
     }
 }

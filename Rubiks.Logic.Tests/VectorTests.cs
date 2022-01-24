@@ -72,4 +72,34 @@ public class VectorTests
 
         vector.GetVector().Should().BeEquivalentTo(expected);
     }
+
+    [Fact]
+    public void GivenSingleValueWhenAddScalarThenAddsToValue()
+    {
+        var expected = new[,]
+        {
+            { 6 }
+        };
+
+        var vector = new Vector(1);
+        vector.Add(5);
+
+        vector.GetVector().Should().BeEquivalentTo(expected);
+    }
+
+    [Fact]
+    public void GivenMultipleValuesWhenAddScalarThenAddsToValues()
+    {
+        var expected = new[,]
+        {
+            { 6 },
+            { 7 },
+            { 8 }
+        };
+
+        var vector = new Vector(1, 2, 3);
+        vector.Add(5);
+
+        vector.GetVector().Should().BeEquivalentTo(expected);
+    }
 }
